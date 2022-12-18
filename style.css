@@ -1,0 +1,120 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(158, 240, 248);
+}
+
+main {
+    background: url("assets/bg/413625.jpg");
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.main-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation-list {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+.navigation-link {
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgb(2, 57, 73);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+#profile {
+    text-align: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgb(2, 57, 73);
+    width: 95%;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(1, 42, 55);
+    min-height: 80px;
+}
+
